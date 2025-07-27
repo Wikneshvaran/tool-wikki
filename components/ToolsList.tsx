@@ -1,15 +1,13 @@
-// components/ToolsList.tsx
 import React from 'react';
 
 const ToolsList = () => {
   return (
     <div>
-      <h2>Available Tools</h2>
+      <h2>Tool List</h2>
       <ul>
-        <li>Image Compressor</li>
-        <li>Text to Speech</li>
-        <li>QR Code Generator</li>
-        <li>More coming soon...</li>
+        <li>Calculator</li>
+        <li>Unit Converter</li>
+        <li>JSON Formatter</li>
       </ul>
     </div>
   );
