@@ -1,8 +1,9 @@
-const path = require("path");
-
-module.exports = {
-  webpack: (config) => {
-    config.resolve.alias['@'] = path.resolve(__dirname);
-    return config;
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
+  images: {
+    unoptimized: true, // Prevent image optimization issues
   },
-};
+}
+
+module.exports = nextConfig
