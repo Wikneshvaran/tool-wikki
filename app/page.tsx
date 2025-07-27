@@ -1,5 +1,5 @@
-import ToolsList from "@/components/ToolsList";
-import { Button } from "@/components/ui/button";
+import ToolsList from "C:\Users\wikne\OneDrive\Documents\GitHub\tool-wikki\components\ToolsList.tsx";
+import { Button } from "C:\Users\wikne\OneDrive\Documents\GitHub\tool-wikki\components\ToolsList.tsx";
 import { Sparkles } from "lucide-react";
 
 export default function Home() {
